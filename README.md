@@ -1,4 +1,53 @@
-# 🍔 Online Food Ordering Bot | Python & Telegram
+# 🍔 Online Food Ordering Bot
+
+## us English
+
+### 🎯 About the Project
+A smart Telegram bot for food ordering that automates and simplifies the ordering process. 🚀
+Designed using Python and the Telegram API, this bot optimizes the customer ordering experience and restaurant management. From menu selection to invoice generation and admin notification, everything happens in a unified environment.
+
+### ✨ Key Features
+- 📋 **Categorized Menu:** Easy access to food, drink, and appetizer categories.
+- 🛒 **Smart Cart:** Add, remove, edit items, and change quantities instantly.
+- 🔄 **Product Swap:** Quick option to change selected items.
+- 💰 **Auto-Calculation:** Precise calculation of the final order amount.
+- 📍 **Address Registration:** Manual address entry or GPS location sharing.
+- 📞 **Contact Info:** Collect user phone numbers for coordination.
+- 🧾 **Graphic Invoice:** Generate and send beautiful visual invoices to customers.
+- 📤 **Admin Notification:** Send complete order details to the restaurant manager.
+- 👥 **Multi-User Support:** Manage multiple simultaneous orders with high stability.
+
+### ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/soroush-babaei/Online-Food-Ordering-Bot.git
+   cd Online-Food-Ordering-Bot
+
+ 
+2. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+    
+3. **Configuration:**
+   
+   ```bash
+   TOKEN='Put Your Token'
+   ADMIN_CHAT_ID='Put Your Admin Chat ID'
+   ```
+ 
+4. **Run the bot:**
+   
+   ```bash
+   python main.py
+   ```
+
+## ir Farsi
+# 🍔 ربات سفارش‌گیری آنلاین غذا
 
 یک ربات هوشمند سفارش‌گیری غذا که فرآیند سفارش‌دهی را در تلگرام کاملاً خودکار و آسان می‌کند. 🚀
 
@@ -16,12 +65,6 @@
 - 📤 **ارسال به ادمین:** ارسال کامل جزئیات سفارش به مدیر رستوران.
 - 👥 **پشتیبانی چندکاربره:** مدیریت همزمان چندین سفارش با پایداری بالا.
 
-## 🛠️ ساختار پروژه
-- `main.py`: هسته اصلی اجرای ربات.
-- `.env`: فایل تنظیمات محرمانه (شامل توکن و آیدی ادمین).
-- `.gitignore`: فایل‌های نادیده گرفته شده توسط گیت.
-- `fonts/`: پوشش مربوط به فونت‌های گرافیکی (برای فاکتورها).
-- `requirements.txt`: لیست کتابخانه‌های مورد نیاز.
 
 ## ⚙️ نحوه نصب و اجرا
 
@@ -30,15 +73,18 @@
    git clone https://github.com/soroush-babaei/Online-Food-Ordering-Bot.git
    cd Sandwich_Bot
    ```
+   
 2. **نصب وابستگی‌ها:**
    ```bash
    pip install -r requirements.txt
    ```
+   
 3. **تنظیمات:**
    ```bash
    TOKEN='Put Your Token'
    ADMIN_CHAT_ID='Put Your Admin Chat ID'
    ```
+   
 4. **اجرای ربات:**
    ```bash
    python main.py
